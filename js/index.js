@@ -93,4 +93,19 @@ function pageMove(tw){
 	},600);
 }
 
+	/*audio 控制*/
+	$(".player-button").on('click', function(){
+
+		var audio = document.getElementById('audio');  
+		if($(this).hasClass("player-button-stop")){
+			$(this).removeClass("player-button-stop");
+			audio.play();
+		} else {
+			$(this).addClass("player-button-stop");
+			audio.pause();
+		}
+		
+	});
+
+
 })();
