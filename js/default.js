@@ -1,6 +1,8 @@
 (function(){
 
-var now = { row:1, col:1 }, last = { row:0, col:0};
+var index = $(".on").index() + 1;
+
+var now = { row:index, col:1 }, last = { row:0, col:0};
 const towards = { up:1, right:2, down:3, left:4};
 var isAnimating = false;
 
@@ -83,12 +85,12 @@ function pageMove(tw){
 	$(nowPage).addClass(inClass);
 	
 	setTimeout(function(){
-		$(lastPage).removeClass('page-current');
+		$(lastPage).removeClass('on');
 		$(lastPage).removeClass(outClass);
 		$(lastPage).addClass("hide");
 		$(lastPage).find("img").addClass("hide");
 		
-		$(nowPage).addClass('page-current');
+		$(nowPage).addClass('on');
 		$(nowPage).removeClass(inClass);
 		$(nowPage).find("img").removeClass("hide");
 		
