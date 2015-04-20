@@ -269,7 +269,7 @@ function pageMove(tw){
 	},600);
 
 	/*动态加载背景图片与图片*/
-	var preLoad = ".page-" + (last.row + 1) + "-" + last.col;
+	var preLoad = ".page-" + (last.row + 2) + "-" + last.col;
 	// console.log(preLoad);
 	var bg = $(preLoad).attr("bg");
 	$(preLoad).attr("style",bg);

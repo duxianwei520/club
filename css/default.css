@@ -56,12 +56,12 @@ img{width: 50%;}
 
 .hide{ display:none;}
 
-.page{width:100%;height:100%;position:absolute;text-align:center; background-size: cover; background-repeat: no-repeat;background-position:  0 0;}
+.page{width:100%;height:100%;position:absolute;text-align:center; background-size: cover; background-repeat: no-repeat;background-position:  0 0;background-color:#666699;}
 
 .page .wrap{width: 100%;height: 100%;text-align: center;}
 
 .page-1-1{ background-color:#083846;background-image: url(../img/default/1.jpg);}
-/*.page-2-1{ background-color:#9261BF;background-image: url(../img/default/5.jpg); }*/
+.page-2-1{ background-color:#9261BF;background-image: url(../img/default/5.jpg); }
 /* .page-3-1{ background-color:#F3533C;background-image: url(../img/default/3.jpg);}
 .page-4-1{ background-color:#FFBF50;background-image: url(../img/default/13.jpg);}
 .page-5-1{ background-color:#660066;background-image: url(../img/default/92.jpg);}
