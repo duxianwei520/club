@@ -225,6 +225,16 @@ $(document).swipeRight(function(){
 		now.row = last.row; now.col = 1; pageMove(towards.right);
 	}	
 })*/
+$(".next").on('click', function(){
+
+	if (isAnimating) return;
+	last.row = now.row;
+	last.col = now.col;
+	if (last.row != len) { 
+		now.row = last.row + 1; now.col = 1; pageMove(towards.up);
+	}	
+	
+});
 
 function pageMove(tw){
 	var lastPage = ".page-" + last.row + "-" + last.col,
