@@ -79,6 +79,7 @@ img{width: 50%;}
 
 
 .icon-up{ height:auto;width:25px;position:absolute;left:50%;bottom:5px;margin-left:-12px;}
+.padding20{padding:0 20px;}
 .full{padding:10px 0; width: 100%;}
 .abs{ position: absolute;}
 .rel{ position: relative;}
@@ -91,6 +92,7 @@ img{width: 50%;}
 .h1{font-size: 40px;}
 .h2{font-size: 20px;}
 .h3{font-size: 15px;}
+.h4{font-size: 12px;}
 .lh40{ line-height: 40px;}
 .lh30{ line-height: 30px;}
 .lh20{ line-height: 20px;}
