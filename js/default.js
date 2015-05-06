@@ -288,7 +288,7 @@ function pageMove(tw){
 		if(src){
 			$(this).attr("src", src);
 		}
-		console.log($(this).attr("data-src"))
+		// console.log($(this).attr("data-src"))
 	});
 	// console.log(bg);
 	
