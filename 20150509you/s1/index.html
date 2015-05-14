@@ -31,9 +31,26 @@
 </style>
 </head>
 <body>
-	<div id="flashcontent"></div>
+
+	<div id="flashcontent">
+		
+
+	</div>
+	<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 	<script type="text/javascript">
-	
+			/*audio 控制*/
+	$(".player-button").on('click', function(){
+
+		var audio = document.getElementById('audio');  
+		if($(this).hasClass("player-button-stop")){
+			$(this).removeClass("player-button-stop");
+			audio.play();
+		} else {
+			$(this).addClass("player-button-stop");
+			audio.pause();
+		}
+
+	});
 		var fo = new SWFObject("TiltViewer.swf", "viewer", "100%", "100%", "9.0.28", "#000000");			
 		
 		// TILTVIEWER CONFIGURATION OPTIONS
@@ -77,7 +94,11 @@
 	</script>
 	
 	<div align="center">
-
+	<div class="player-button" style="display:none">
+		<audio class="audio-source" id="audio" autoplay="autoplay" loop="loop" src="../I Was a Fool - Tegan and Sara.mp3"></audio>
+		<!-- <audio class="audio-source pt-page-delay700" id="audio" loop="loop" src="m3.mp3"></audio> -->
+	</div>
+<div>
 	</div>
 </body>
 </html>
