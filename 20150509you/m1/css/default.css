@@ -125,7 +125,7 @@ img{width: 50%;}
 
 #page-9-1 .p, #page-10-1 .p{  font-size: 20px; position: relative; z-index: 30; top: 320px;}
 
-#page-15-1 .main1,#page-17-1 .main1,#page-1-1 .main1,#page-15-1 .main1{ top: 30%;}
+#page-17-1 .main1,#page-1-1 .main1,#page-14-1 .main1{ top: 30%;}
 #page-2-1 .main1{top: 40%;}
 #page-15-1 .main2{bottom: 0;}
 
@@ -134,6 +134,7 @@ img{width: 50%;}
 #page-3-1 .main2{ bottom: 140px;}
 #page-3-1 .main1{ bottom: 190px;}
 
-#page-14-1 .main1 p, #page-16-1 .main1 p,#page-6-1 .main1 p,#page-8-1 .main1 p{padding:0 20px;}
+#page-14-1 .main1 p, #page-16-1 .main1 p,#page-6-1 .main1 p,#page-8-1 .main1 p,#page-4-1 .main1 p{padding:0 20px;}
 
-#page-14-1 {background-position: 40% 0;}
+#page-14-1 .img_1{ bottom: 80px;left: 50%;  width: 100px; height: 100px; margin-left: -50px;}
+#page-15-1 .img_1{ width: 160px; height: 160px; border-radius: 160px; left: 50%; margin-left: -80px; top: 80px;}
